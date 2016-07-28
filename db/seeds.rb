@@ -13,6 +13,6 @@ Product.create!(title: 'Programming Ruby 2.x.x',
             Ruby is the fastest growing and most exciting
             dynamic language out there.
         </p>},
-    image_url: 'ruby.jpg',
+    image_url: 'http://programmingzen.com/files/libro_ruby.jpg',
     price: 49.95)
 #...
