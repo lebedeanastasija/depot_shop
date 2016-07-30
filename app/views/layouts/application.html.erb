@@ -23,9 +23,7 @@
         Today:
         <%= Time.now %><br />
         Visit this page:
-        <% if session[:counter] > 5 %>
         <%= pluralize session[:counter], 'time' %>
-        <% end %>
       </div>
     </div>
     <div id="main">
