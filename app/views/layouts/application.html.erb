@@ -20,7 +20,12 @@
         <li><a href="http://www..../contact">Contacts</a></li>
       </ul>
       <div id="time">
-        <%= Time.now %>
+        Today:
+        <%= Time.now %><br />
+        Visit this page:
+        <% if session[:counter] > 5 %>
+        <%= pluralize session[:counter], 'time' %>
+        <% end %>
       </div>
     </div>
     <div id="main">
