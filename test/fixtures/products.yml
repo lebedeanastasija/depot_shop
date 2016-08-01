@@ -1,21 +1,26 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
-
-two:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+javascript:
+  title: Eloquent JavaScript
+  description:
+    <p>Eloquent JavaScript is a JavaScript
+     book by Marijn Haverbeke. The digital
+      form is free, and a print version is
+     forthcoming. The book assumes no prior
+      programming experience. Of the books
+       listed here, this one might have the
+      most to offer experienced programmers
+       looking to get started with JavaScript.</p>
+  image_url: http://15809-presscdn-0-93.pagely.netdna-cdn.com/wp-content/uploads/media/MTIyNDQzNTI2MTI5NjE1NDYy.png
+  price: 4.99
 
 ruby:
   title: Programming Ruby 1.9
   description:
-    Ruby is the fastest qrowing and most exciting dynamic
-    language out there.
-  price: 49.50
-  image_url: ruby.png
+    <p>Ruby is the fastest growing and most
+    exciting dynamic language out there. If
+    you need to get working programs
+    delivered fast, you should add Ruby to
+    your toolbox.</p>
+  image_url: https://imagery.pragprog.com/products/355/ruby4.jpg
+  price: 9.99
